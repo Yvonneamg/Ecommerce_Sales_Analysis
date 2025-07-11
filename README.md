@@ -22,11 +22,14 @@ Retail businesses need insights into regional sales, top customers, and product 
 
 ## Deliverables
 [Excel Workbook](data/Excel%20Ecommerce%20Analysis.xlsx)
+
 [Tableau Dashboard](https://public.tableau.com/app/profile/yvonne.amugaga/viz/EcommerceSalesDashboardFinal/E-commerceSalesAnalysisDashboard)
 
 
 ## How to Run
 Excel: Open `Excel Ecommerce Analysis.xlsx`
+
 Tableau: View dashboard on Tableau Public
+
 SQL: Run queries in SQLite (Superstore_Sales.db)
 
