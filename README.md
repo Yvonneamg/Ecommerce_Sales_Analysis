@@ -22,6 +22,7 @@ Retail businesses need insights into regional sales, top customers, and product 
 
 ## Deliverables
 [Excel Workbook](data/Excel%20Ecommerce%20Analysis.xlsx)
+[Tableau Dashboard](https://public.tableau.com/views/EcommerceSalesDashboard)
 
 
 ## How to Run
