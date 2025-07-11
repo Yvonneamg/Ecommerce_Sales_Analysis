@@ -21,7 +21,7 @@ Retail businesses need insights into regional sales, top customers, and product 
 - Low-profit products: Tables with  less than 5% margin
 
 ## Deliverables
-[Excel Workbook](data/Excel Ecommerce Analysis.xlsx)
+[Excel Workbook](data/Excel_Ecommerce_Analysis.xlsx)
 
 
 ## How to Run
