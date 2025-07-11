@@ -17,12 +17,13 @@ Retail businesses need insights into regional sales, top customers, and product 
 ## Findings
 - Top region: West with $725,457.82 in sales
 - Top customer: Sean Miller with $25,043.05 
-- Sales peak: 
+- Staples with a total quantity count of 215 is most sold product
 - Low-profit products: Tables with  less than 5% margin
 
 ## Deliverables
 - [Excel Workbook](data/Excel%20Ecommerce%20Analysis.xlsx)
 - [Tableau Dashboard](https://public.tableau.com/app/profile/yvonne.amugaga/viz/EcommerceSalesDashboardFinal/E-commerceSalesAnalysisDashboard)
+- [SQL Queries](scripts/)
 
 
 ## How to Run
