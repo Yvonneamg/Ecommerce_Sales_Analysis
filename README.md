@@ -25,5 +25,5 @@ Retail businesses need insights into regional sales, top customers, and product 
 
 
 ## How to Run
-Excel: Open `Excel%20Ecommerce%20Analysis.xlsx`
+Excel: Open `Excel Ecommerce Analysis.xlsx`
 
