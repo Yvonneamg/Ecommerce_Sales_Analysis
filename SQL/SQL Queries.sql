@@ -67,7 +67,7 @@ GROUP BY "Product ID", "Product Name"
 ORDER BY TotalQuantity DESC
 LIMIT 10;
 
--- What categorygenerates more revenue
+-- What category generates more revenue
 SELECT "Product ID",
 "Product Name",
 "Category",
@@ -86,3 +86,38 @@ from sales
 group by "Product ID", "Product Name"
 order by TotalSales desc
 limit 10;
+
+-- What product generates more profit
+SELECT "Product ID",
+"Product Name",
+sum(sales) as totalsales,
+sum(profit) as totalprofit
+from sales
+group by "ProductID","Product Name"
+order by totalprofit desc
+limit 10;
+
+-- What customer generates more revenue and profit
+SELECT "Customer ID",
+"Customer Name",
+COUNT(DISTINCT "Order ID") AS Orders,
+SUM(Sales) AS TotalSales,
+ROUND(SUM(Profit), 2) AS TotalProfit,
+ROUND(SUM(Profit), 2) / ROUND(SUM(Sales), 2) AS ProfitMargin
+FROM sales
+GROUP BY "Customer ID", "Customer Name"
+ORDER BY TotalSales DESC
+LIMIT 10;
+
+
+-- What segment generates more revenue and profit
+SELECT Segment,
+COUNT(DISTINCT "Customer ID") AS Customers,
+COUNT(DISTINCT "Order ID") AS Orders,
+ROUND(SUM(Sales), 2) AS TotalSales,
+ROUND(SUM(Profit), 2) AS TotalProfit,
+ROUND(SUM(Profit) / SUM(Sales), 2) AS ProfitMargin
+FROM sales
+GROUP BY Segment
+ORDER BY TotalSales DESC;
+
