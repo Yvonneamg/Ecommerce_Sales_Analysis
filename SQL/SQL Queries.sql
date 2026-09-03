@@ -121,3 +121,13 @@ FROM sales
 GROUP BY Segment
 ORDER BY TotalSales DESC;
 
+-- What region generates more revenue and profit
+SELECT Region,
+SUM(Sales) AS TotalSales,
+SUM(Profit) AS TotalProfit,
+SUM(Profit) / SUM(Sales) AS ProfitMargin,
+SUM(Quantity) AS TotalQuantity
+FROM sales
+GROUP BY Region
+ORDER BY TotalSales DESC;
+
