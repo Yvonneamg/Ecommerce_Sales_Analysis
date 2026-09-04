@@ -2,7 +2,7 @@
 
 ## Overview
 
-An end-to-end analysis of the Superstore e-commerce dataset to evaluate **sales performance, profitability, customer value, product performance, regional performance, and the relationship between discounting and profit**.
+An end-to-end analysis of the Superstore e-commerce dataset to evaluate **sales performance, profitability, customer value, product performance, regional performance and the relationship between discounting and profit**.
 
 The project combines **Python, SQL, Excel, and Tableau** to move from data validation and exploratory analysis to business-focused insights and interactive reporting.
 
@@ -22,7 +22,7 @@ The objective was to understand:
 * Which products generate high sales but low or negative profit?
 * Where should management focus to improve profitable growth?
 
-These questions were translated into analytical queries, KPIs, visualizations, and an interactive Tableau dashboard.
+These questions were translated into analytical queries, KPIs, visualizations and an interactive Tableau dashboard.
 
 ---
 
@@ -60,7 +60,7 @@ I performed:
 | Products            |    **1,862** |
 | Average Order Value |  **$458.61** |
 
-These KPIs establish the overall commercial performance of the business before drilling into customers, products, regions, and time periods.
+These KPIs establish the overall commercial performance of the business before drilling into customers, products, regions and time periods.
 
 ---
 
@@ -70,7 +70,7 @@ SQL was used to answer targeted business questions from the SQLite sales databas
 
 ### Customer Analysis
 
-Identified:
+I identified:
 
 * Top customers by total sales
 * Customers generating both high revenue and high profit
@@ -82,7 +82,7 @@ This highlights an important business distinction between **high-revenue custome
 
 ### Product Analysis
 
-Evaluated products using multiple performance measures:
+I evaluated products using multiple performance measures:
 
 * Total sales
 * Total quantity sold
@@ -93,11 +93,11 @@ Evaluated products using multiple performance measures:
 The analysis identified the **Canon imageCLASS 2200 Advanced Copier** as the highest-revenue product, generating approximately **$61.6K in sales and $25.2K in profit**.
 I also identified products with **high sales but weak or negative profitability**, including the Cisco TelePresence System EX90, which generated approximately **$22.6K in sales but a loss of $1.8K**.
 
-This analysis supports product-level decisions around pricing, discounting, promotion, and product portfolio management.
+This analysis supports product-level decisions around pricing, discounting, promotion and product portfolio management.
 
 ### Customer Segment Analysis
 
-Compared Consumer, Corporate, and Home Office segments using:
+Compared Consumer, Corporate and Home Office segments using:
 
 * Number of customers
 * Number of orders
@@ -143,7 +143,7 @@ Monthly analysis was also performed to identify changes in sales and profit thro
 
 One of the key analytical questions was whether higher discounts were associated with lower profitability.
 
-The analysis compared sales, profit, and profit margin across discount levels.
+The analysis compared sales, profit and profit margin across discount levels.
 
 The results showed a clear deterioration in profitability at higher discount levels:
 
@@ -177,9 +177,9 @@ Products were segmented using median sales and median profit as reference points
 * **Low Sales / High Profit** → profitable products with potential for growth
 * **Low Sales / Low Profit** → products requiring review
 
-The analysis used **sales, profit, quantity, and profit margin** to provide a more balanced view of product performance than revenue rankings alone.
+The analysis used **sales, profit, quantity and profit margin** to provide a more balanced view of product performance than revenue rankings alone.
 
-This visualization helps identify products that may require **pricing, discount, promotion, or portfolio decisions**.
+This visualization helps identify products that may require **pricing, discount, promotion or portfolio decisions**.
 
 ---
 
