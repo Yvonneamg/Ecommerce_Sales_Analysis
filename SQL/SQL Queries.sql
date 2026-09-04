@@ -131,3 +131,16 @@ FROM sales
 GROUP BY Region
 ORDER BY TotalSales DESC;
 
+-- High sales but low-profit products (sales >= 1000 and profit margin < 10%)
+SELECT "Product ID",
+"Product Name",
+Category,
+round(SUM(Sales),2) AS TotalSales,
+round(SUM(Profit),2) AS TotalProfit,
+round(SUM(Profit) / SUM(Sales),2) AS ProfitMargin
+FROM sales
+GROUP BY "Product ID", "Product Name", Category
+HAVING SUM(Sales) >= 1000 AND (SUM(Profit) / SUM(Sales)) < 0.10
+ORDER BY TotalSales DESC;
+
+
