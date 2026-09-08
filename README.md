@@ -261,7 +261,7 @@ Several products generated significant sales while producing very low or negativ
 ## Deliverables
 
 * [Excel Workbook](data/Excel%20Ecommerce%20Analysis.xlsx)
-* [Tableau Dashboard](https://public.tableau.com/app/profile/yvonne.amugaga/viz/EcommerceSalesDashboardFinal/E-commerceSalesAnalysisDashboard)
+* [Tableau Dashboard](https://public.tableau.com/views/EcommerceSalesDashboardFinal/E-COMMERCESALESANDPROFITABILITYPERFORMANCEDASHBOARD?:language=en-US&:sid=661B3F0EA0AE414BAC6F170ACB8CEC93-0:0&:redirect=auth&:display_count=n&:origin=viz_share_link)
 * [SQL Queries](SQL/SQL%20Queries.sql)
 
 ---
